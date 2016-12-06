@@ -1,0 +1,8 @@
+{
+    "cloudant": {
+        "url": "https://opencouncildata.cloudant.com",
+        "account": "opencouncildata",
+        "password": "VERYSECRET",
+        "database": "councils"
+    }
+}
