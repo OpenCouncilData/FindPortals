@@ -5,9 +5,6 @@ var Promise = require('bluebird');
 var orgInfo = {};
 var Cloudant = require('cloudant');
 
-// can be queried as https://opencouncildata.cloudant.com/councils/_design/platforms/_view/ckan
-//                   https://opencouncildata.cloudant.com/councils/_design/platforms/_view/socrata
-// 
 
 function uploadToCloudant(orgInfo) {
     var docs = Object.keys(orgInfo).map(key => {
@@ -16,7 +13,8 @@ function uploadToCloudant(orgInfo) {
         return doc;
     });
 
-    console.log(docs);
+    console.log(docs.map(doc => doc.title).join(','));
+    console.log(`${docs.length} councils.`);
     //return;
     var config = require('./config.json');
 
@@ -39,14 +37,20 @@ function cleanCouncilName(name) {
 
 /* Connect  to a CKAN endpoint and build a list of councils that have organisations within that portal. */
 function getCouncilOrgs(api) {
-    
+    const councilRegex = /\b(city|shire|municipal|regional council)\b/i;
     //console.log('Short name,Date,LGA_Name');
     return requestp({
         url: api + 'action/organization_list?all_fields=true', // all_fields gets us the title (and a million things we don't need)
         json: true
     }).then(results => results.result
         // we have to be careful not to double count sites that get federated to data.gov.au
-        .filter(org => api.match('brisbane') ? true : (!org.title.match(/Brisbane/) && org.title.match(/city|shire|municipal/i)))
+        .filter(org => {
+            if (org.title.match(/council/) && !org.title.match(councilRegex)) {
+                console.log('Warning: Did we miss ' + org.title + '?');
+            }
+            return true;
+        })
+        .filter(org => api.match('brisbane') ? true : (!org.title.match(/Brisbane/) && org.title.match(councilRegex)))
         //.filter(org => org.name === 'city-of-greater-geelong')
         .filter(org => { 
             //console.log(`${org.name},${org.created},${org.title}`);
@@ -63,7 +67,7 @@ function getCouncilOrgs(api) {
                 type: 'ckan'
             };
             // There is no explicit state metadata, so we have to generate that here.
-            if (api.match('brisbane') || org.title.match(/gold coast|logan|sunshine coast|noosa/i))
+            if (api.match('brisbane') || org.title.match(/gold coast|logan|sunshine coast|noosa|moreton bay/i))
                 orgInfo[orgUrl].state = 'Queensland';
             else if (api.match('data.sa'))
                 orgInfo[orgUrl].state = 'South Australia';
@@ -97,7 +101,8 @@ Promise.all([
         title: 'Brisbane City Council',
         shortTitle: 'Brisbane',
         type: 'ckan',
-        state: 'Queensland'
+        state: 'Queensland',
+        api: 'https://data.brisbane.qld.gov.au/data/api/3/'
     };
     orgInfo['http://data.melbourne.vic.gov.au'] = {
         api: 'http://data.melbourne.vic.gov.au',
