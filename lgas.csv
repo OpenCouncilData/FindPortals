@@ -1,0 +1,564 @@
+LGA_CODE16,LGA_NAME16,STE_CODE16,STE_NAME16,AREASQKM16
+10050,Albury (C),1,New South Wales,305.945899999999995
+10130,Armidale Regional (A),1,New South Wales,8620.699000000000524
+10250,Ballina (A),1,New South Wales,484.938899999999990
+10300,Balranald (A),1,New South Wales,21690.675299999998970
+10470,Bathurst Regional (A),1,New South Wales,3817.864599999999882
+10550,Bega Valley (A),1,New South Wales,6278.881099999999606
+10600,Bellingen (A),1,New South Wales,1600.433700000000044
+10650,Berrigan (A),1,New South Wales,2065.775900000000092
+10750,Blacktown (C),1,New South Wales,240.048699999999997
+10800,Bland (A),1,New South Wales,8557.653500000000349
+10850,Blayney (A),1,New South Wales,1524.646999999999935
+10900,Blue Mountains (C),1,New South Wales,1431.144199999999955
+10950,Bogan (A),1,New South Wales,14599.899600000000646
+11100,Botany Bay (C),1,New South Wales,21.682600000000001
+11150,Bourke (A),1,New South Wales,41599.507200000000012
+11200,Brewarrina (A),1,New South Wales,19163.479800000000978
+11250,Broken Hill (C),1,New South Wales,170.115299999999991
+11300,Burwood (A),1,New South Wales,7.128100000000000
+11350,Byron (A),1,New South Wales,565.802900000000022
+11400,Cabonne (A),1,New South Wales,6022.349799999999959
+11450,Camden (A),1,New South Wales,201.028099999999995
+11500,Campbelltown (C) (NSW),1,New South Wales,311.911099999999976
+11520,Canada Bay (A),1,New South Wales,19.923300000000001
+11570,Canterbury-Bankstown (A),1,New South Wales,110.263800000000003
+11600,Carrathool (A),1,New South Wales,18932.460299999998824
+11650,Central Coast (C) (NSW),1,New South Wales,1681.069500000000062
+11700,Central Darling (A),1,New South Wales,53492.193099999996775
+11720,Cessnock (C),1,New South Wales,1965.158899999999903
+11730,Clarence Valley (A),1,New South Wales,10428.680299999999988
+11750,Cobar (A),1,New South Wales,45579.329899999996996
+11800,Coffs Harbour (C),1,New South Wales,1173.743699999999990
+12000,Coolamon (A),1,New South Wales,2430.903699999999844
+12150,Coonamble (A),1,New South Wales,9916.053599999999278
+12350,Cowra (A),1,New South Wales,2808.782200000000103
+12380,Cumberland (A),1,New South Wales,71.551100000000005
+12700,Dungog (A),1,New South Wales,2249.998300000000199
+12730,Edward River (A),1,New South Wales,8883.446400000000722
+12750,Eurobodalla (A),1,New South Wales,3428.169499999999971
+12850,Fairfield (C),1,New South Wales,101.507000000000005
+12870,Federation (A),1,New South Wales,5685.048600000000079
+12900,Forbes (A),1,New South Wales,4710.127999999999702
+12930,Georges River (A),1,New South Wales,38.318899999999999
+12950,Gilgandra (A),1,New South Wales,4831.505699999999706
+13010,Glen Innes Severn (A),1,New South Wales,5479.976999999999862
+13310,Goulburn Mulwaree (A),1,New South Wales,3220.079600000000028
+13340,Greater Hume Shire (A),1,New South Wales,5749.518500000000131
+13450,Griffith (C),1,New South Wales,1639.172800000000052
+13510,Gundagai (A),1,New South Wales,3981.417300000000068
+13550,Gunnedah (A),1,New South Wales,4987.029499999999643
+13660,Gwydir (A),1,New South Wales,9259.654200000000856
+13800,Hawkesbury (C),1,New South Wales,2775.137700000000223
+13850,Hay (A),1,New South Wales,11325.932399999999689
+13910,Hilltops (A),1,New South Wales,7140.886300000000119
+14000,Hornsby (A),1,New South Wales,455.037500000000023
+14100,Hunters Hill (A),1,New South Wales,5.716900000000000
+14170,Inner West (A),1,New South Wales,35.371299999999998
+14200,Inverell (A),1,New South Wales,8597.208099999999831
+14300,Junee (A),1,New South Wales,2030.022200000000112
+14350,Kempsey (A),1,New South Wales,3375.670700000000124
+14400,Kiama (A),1,New South Wales,257.663599999999974
+14500,Ku-ring-gai (A),1,New South Wales,85.409599999999998
+14550,Kyogle (A),1,New South Wales,3584.164400000000114
+14600,Lachlan (A),1,New South Wales,14964.275200000000041
+14650,Lake Macquarie (C),1,New South Wales,648.639800000000037
+14700,Lane Cove (A),1,New South Wales,10.479400000000000
+14750,Leeton (A),1,New South Wales,1167.187699999999950
+14850,Lismore (C),1,New South Wales,1287.704300000000103
+14870,Lithgow (C),1,New South Wales,4512.256300000000010
+14900,Liverpool (C),1,New South Wales,305.739599999999996
+14920,Liverpool Plains (A),1,New South Wales,5082.239700000000084
+14950,Lockhart (A),1,New South Wales,2895.804900000000089
+15050,Maitland (C),1,New South Wales,391.508699999999976
+15240,Mid-Coast (A),1,New South Wales,10053.245500000000902
+15270,Mid-Western Regional (A),1,New South Wales,8752.259000000000015
+15300,Moree Plains (A),1,New South Wales,17906.524099999998725
+15350,Mosman (A),1,New South Wales,8.650300000000000
+15520,Murray River (A),1,New South Wales,11863.477100000000064
+15560,Murrumbidgee (A),1,New South Wales,6882.815099999999802
+15650,Muswellbrook (A),1,New South Wales,3404.884000000000015
+15700,Nambucca (A),1,New South Wales,1491.343200000000024
+15750,Narrabri (A),1,New South Wales,13014.993700000000899
+15800,Narrandera (A),1,New South Wales,4116.345900000000256
+15850,Narromine (A),1,New South Wales,5261.516499999999724
+15900,Newcastle (C),1,New South Wales,186.754899999999992
+15950,North Sydney (A),1,New South Wales,10.485700000000000
+15990,Northern Beaches (A),1,New South Wales,254.207400000000007
+16100,Oberon (A),1,New South Wales,3625.047000000000025
+16150,Orange (C),1,New South Wales,284.215700000000027
+16200,Parkes (A),1,New South Wales,5957.613800000000083
+16260,Parramatta (C),1,New South Wales,83.829400000000007
+16350,Penrith (C),1,New South Wales,404.701599999999985
+16380,Port Macquarie-Hastings (A),1,New South Wales,3683.009900000000016
+16400,Port Stephens (A),1,New South Wales,858.435699999999997
+16490,Queanbeyan-Palerang Regional (A),1,New South Wales,5318.882200000000012
+16550,Randwick (C),1,New South Wales,36.331099999999999
+16610,Richmond Valley (A),1,New South Wales,3047.374800000000050
+16650,Rockdale (C),1,New South Wales,28.207799999999999
+16700,Ryde (C),1,New South Wales,40.474800000000002
+16900,Shellharbour (C),1,New South Wales,147.421099999999996
+16950,Shoalhaven (C),1,New South Wales,4566.679500000000189
+17000,Singleton (A),1,New South Wales,4892.716999999999643
+17040,Snowy Monaro Regional (A),1,New South Wales,15163.546099999999569
+17080,Snowy Valleys (A),1,New South Wales,8959.002800000000207
+17100,Strathfield (A),1,New South Wales,14.000900000000000
+17150,Sutherland Shire (A),1,New South Wales,333.593299999999999
+17200,Sydney (C),1,New South Wales,26.742899999999999
+17310,Tamworth Regional (A),1,New South Wales,9884.350599999999758
+17350,Temora (A),1,New South Wales,2802.016000000000076
+17400,Tenterfield (A),1,New South Wales,7322.792999999999665
+17420,The Hills Shire (A),1,New South Wales,386.158799999999985
+17550,Tweed (A),1,New South Wales,1307.656199999999899
+17620,Upper Hunter Shire (A),1,New South Wales,8096.089200000000346
+17640,Upper Lachlan Shire (A),1,New South Wales,7127.395700000000033
+17650,Uralla (A),1,New South Wales,3226.532700000000204
+17750,Wagga Wagga (C),1,New South Wales,4824.488900000000285
+17850,Walcha (A),1,New South Wales,6261.024199999999837
+17900,Walgett (A),1,New South Wales,22308.384799999999814
+17950,Warren (A),1,New South Wales,10753.767299999999523
+18020,Warrumbungle Shire (A),1,New South Wales,12372.120100000000093
+18050,Waverley (A),1,New South Wales,9.350700000000000
+18100,Weddin (A),1,New South Wales,3414.856600000000071
+18200,Wentworth (A),1,New South Wales,26256.239799999999377
+18230,Western Plains Regional (A),1,New South Wales,7534.525099999999838
+18250,Willoughby (C),1,New South Wales,22.425799999999999
+18350,Wingecarribee (A),1,New South Wales,2689.341300000000047
+18400,Wollondilly (A),1,New South Wales,2555.434000000000196
+18450,Wollongong (C),1,New South Wales,683.985999999999990
+18500,Woollahra (A),1,New South Wales,12.277500000000000
+18710,Yass Valley (A),1,New South Wales,3995.325699999999870
+19399,Unincorporated NSW,1,New South Wales,93214.159199999994598
+19499,No usual address (NSW),1,New South Wales,0.000000000000000
+19799,Migratory - Offshore - Shipping (NSW),1,New South Wales,0.000000000000000
+20110,Alpine (S),2,Victoria,4788.156799999999748
+20260,Ararat (RC),2,Victoria,4211.117100000000391
+20570,Ballarat (C),2,Victoria,739.032100000000014
+20660,Banyule (C),2,Victoria,62.540199999999999
+20740,Bass Coast (S),2,Victoria,865.809499999999957
+20830,Baw Baw (S),2,Victoria,4027.628700000000208
+20910,Bayside (C),2,Victoria,37.211100000000002
+21010,Benalla (RC),2,Victoria,2352.639700000000175
+21110,Boroondara (C),2,Victoria,60.177399999999999
+21180,Brimbank (C),2,Victoria,123.399100000000004
+21270,Buloke (S),2,Victoria,8000.402699999999641
+21370,Campaspe (S),2,Victoria,4518.858199999999670
+21450,Cardinia (S),2,Victoria,1282.567800000000034
+21610,Casey (C),2,Victoria,409.428899999999999
+21670,Central Goldfields (S),2,Victoria,1532.784300000000030
+21750,Colac-Otway (S),2,Victoria,3437.470100000000002
+21830,Corangamite (S),2,Victoria,4407.492100000000391
+21890,Darebin (C),2,Victoria,53.471100000000000
+22110,East Gippsland (S),2,Victoria,20940.232599999999366
+22170,Frankston (C),2,Victoria,129.598000000000013
+22250,Gannawarra (S),2,Victoria,3735.335300000000188
+22310,Glen Eira (C),2,Victoria,38.690600000000003
+22410,Glenelg (S),2,Victoria,6218.573400000000220
+22490,Golden Plains (S),2,Victoria,2703.389799999999923
+22620,Greater Bendigo (C),2,Victoria,2999.972099999999955
+22670,Greater Dandenong (C),2,Victoria,129.546899999999994
+22750,Greater Geelong (C),2,Victoria,1247.987599999999929
+22830,Greater Shepparton (C),2,Victoria,2421.909299999999803
+22910,Hepburn (S),2,Victoria,1472.984400000000051
+22980,Hindmarsh (S),2,Victoria,7524.182399999999689
+23110,Hobsons Bay (C),2,Victoria,64.240399999999994
+23190,Horsham (RC),2,Victoria,4266.769000000000233
+23270,Hume (C),2,Victoria,503.850500000000011
+23350,Indigo (S),2,Victoria,2040.068999999999960
+23430,Kingston (C) (Vic.),2,Victoria,91.367699999999999
+23670,Knox (C),2,Victoria,113.911500000000004
+23810,Latrobe (C) (Vic.),2,Victoria,1425.612800000000107
+23940,Loddon (S),2,Victoria,6696.444700000000012
+24130,Macedon Ranges (S),2,Victoria,1748.283699999999953
+24210,Manningham (C),2,Victoria,113.347800000000007
+24250,Mansfield (S),2,Victoria,3843.853500000000167
+24330,Maribyrnong (C),2,Victoria,31.225400000000000
+24410,Maroondah (C),2,Victoria,61.409700000000001
+24600,Melbourne (C),2,Victoria,37.351300000000002
+24650,Melton (C),2,Victoria,527.537400000000048
+24780,Mildura (RC),2,Victoria,22082.483599999999569
+24850,Mitchell (S),2,Victoria,2862.083299999999781
+24900,Moira (S),2,Victoria,4046.373799999999846
+24970,Monash (C),2,Victoria,81.482900000000001
+25060,Moonee Valley (C),2,Victoria,43.138599999999997
+25150,Moorabool (S),2,Victoria,2110.550400000000081
+25250,Moreland (C),2,Victoria,50.951900000000002
+25340,Mornington Peninsula (S),2,Victoria,724.167900000000031
+25430,Mount Alexander (S),2,Victoria,1529.618400000000065
+25490,Moyne (S),2,Victoria,5481.686099999999897
+25620,Murrindindi (S),2,Victoria,3879.750500000000102
+25710,Nillumbik (S),2,Victoria,432.337300000000027
+25810,Northern Grampians (S),2,Victoria,5729.876400000000103
+25900,Port Phillip (C),2,Victoria,20.709199999999999
+25990,Pyrenees (S),2,Victoria,3434.568900000000212
+26080,Queenscliffe (B),2,Victoria,8.616600000000000
+26170,South Gippsland (S),2,Victoria,3296.330699999999979
+26260,Southern Grampians (S),2,Victoria,6654.018600000000333
+26350,Stonnington (C),2,Victoria,25.651399999999999
+26430,Strathbogie (S),2,Victoria,3303.256800000000112
+26490,Surf Coast (S),2,Victoria,1552.943999999999960
+26610,Swan Hill (RC),2,Victoria,6115.308699999999590
+26670,Towong (S),2,Victoria,6674.946700000000419
+26700,Wangaratta (RC),2,Victoria,3645.109500000000025
+26730,Warrnambool (C),2,Victoria,120.948800000000006
+26810,Wellington (S),2,Victoria,10817.334600000000137
+26890,West Wimmera (S),2,Victoria,9108.204200000000128
+26980,Whitehorse (C),2,Victoria,64.280000000000001
+27070,Whittlesea (C),2,Victoria,489.693899999999985
+27170,Wodonga (C),2,Victoria,432.689399999999978
+27260,Wyndham (C),2,Victoria,542.094900000000052
+27350,Yarra (C),2,Victoria,19.542500000000000
+27450,Yarra Ranges (S),2,Victoria,2468.204999999999927
+27630,Yarriambiack (S),2,Victoria,7325.796999999999571
+29399,Unincorporated Vic,2,Victoria,283.014200000000017
+29499,No usual address (Vic.),2,Victoria,0.000000000000000
+29799,Migratory - Offshore - Shipping (Vic.),2,Victoria,0.000000000000000
+30250,Aurukun (S),3,Queensland,7423.988999999999578
+30300,Balonne (S),3,Queensland,31103.707099999999627
+30370,Banana (S),3,Queensland,28550.162599999999657
+30410,Barcaldine (R),3,Queensland,53382.655800000000454
+30450,Barcoo (S),3,Queensland,61830.090700000000652
+30760,Blackall-Tambo (R),3,Queensland,30537.247899999998481
+30900,Boulia (S),3,Queensland,60905.735200000002806
+31000,Brisbane (C),3,Queensland,1342.718800000000101
+31750,Bulloo (S),3,Queensland,73723.751000000003842
+31820,Bundaberg (R),3,Queensland,6432.659800000000359
+31900,Burdekin (S),3,Queensland,5043.931700000000092
+31950,Burke (S),3,Queensland,39684.052600000002712
+32080,Cairns (R),3,Queensland,1689.312899999999900
+32250,Carpentaria (S),3,Queensland,64121.012399999999616
+32260,Cassowary Coast (R),3,Queensland,4687.823999999999614
+32270,Central Highlands (R) (Qld),3,Queensland,59834.835899999998219
+32310,Charters Towers (R),3,Queensland,68382.164300000004005
+32330,Cherbourg (S),3,Queensland,31.600200000000001
+32450,Cloncurry (S),3,Queensland,47971.259599999997590
+32500,Cook (S),3,Queensland,105724.385500000003958
+32600,Croydon (S),3,Queensland,29497.902399999999034
+32750,Diamantina (S),3,Queensland,94730.454500000007101
+32770,Doomadgee (S),3,Queensland,1827.651800000000094
+32810,Douglas (S),3,Queensland,2427.862599999999929
+33100,Etheridge (S),3,Queensland,39199.295599999997648
+33200,Flinders (S) (Qld),3,Queensland,41199.937400000002526
+33220,Fraser Coast (R),3,Queensland,7102.941899999999805
+33360,Gladstone (R),3,Queensland,10484.286200000000463
+33430,Gold Coast (C),3,Queensland,1333.703099999999949
+33610,Goondiwindi (R),3,Queensland,19258.100800000000163
+33620,Gympie (R),3,Queensland,6883.971300000000156
+33800,Hinchinbrook (S),3,Queensland,2807.188900000000103
+33830,Hope Vale (S),3,Queensland,1107.064100000000053
+33960,Ipswich (C),3,Queensland,1084.977699999999913
+33980,Isaac (R),3,Queensland,58707.917399999998452
+34420,Kowanyama (S),3,Queensland,2555.332499999999982
+34530,Livingstone (S),3,Queensland,11757.868300000000090
+34570,Lockhart River (S),3,Queensland,3574.518300000000181
+34580,Lockyer Valley (R),3,Queensland,2269.005299999999806
+34590,Logan (C),3,Queensland,958.132200000000012
+34710,Longreach (R),3,Queensland,40572.244299999998475
+34770,Mackay (R),3,Queensland,7613.296400000000176
+34800,McKinlay (S),3,Queensland,40736.798900000001595
+34830,Mapoon (S),3,Queensland,537.100299999999947
+34860,Maranoa (R),3,Queensland,58704.390800000001036
+34880,Mareeba (S),3,Queensland,53502.024799999999232
+35010,Moreton Bay (R),3,Queensland,2041.474600000000009
+35250,Mornington (S),3,Queensland,1247.693199999999933
+35300,Mount Isa (C),3,Queensland,43713.022100000001956
+35600,Murweh (S),3,Queensland,40699.758500000003551
+35670,Napranum (S),3,Queensland,2004.354499999999916
+35740,Noosa (S),3,Queensland,869.865699999999947
+35760,North Burnett (R),3,Queensland,19669.848900000000867
+35780,Northern Peninsula Area (R),3,Queensland,1052.067600000000084
+35790,Palm Island (S),3,Queensland,71.992800000000003
+35800,Paroo (S),3,Queensland,47612.877399999997579
+36070,Pormpuraaw (S),3,Queensland,4395.365700000000288
+36150,Quilpie (S),3,Queensland,67414.656300000002375
+36250,Redland (C),3,Queensland,537.167000000000030
+36300,Richmond (S),3,Queensland,26580.747800000001007
+36370,Rockhampton (R),3,Queensland,6570.266700000000128
+36510,Scenic Rim (R),3,Queensland,4251.622500000000400
+36580,Somerset (R),3,Queensland,5373.433699999999590
+36630,South Burnett (R),3,Queensland,8381.558000000000902
+36660,Southern Downs (R),3,Queensland,7107.815999999999804
+36720,Sunshine Coast (R),3,Queensland,2253.852600000000166
+36820,Tablelands (R),3,Queensland,11281.895000000000437
+36910,Toowoomba (R),3,Queensland,12957.210800000000745
+36950,Torres (S),3,Queensland,883.730999999999995
+36960,Torres Strait Island (R),3,Queensland,490.031000000000006
+37010,Townsville (C),3,Queensland,3730.820000000000164
+37300,Weipa (T),3,Queensland,10.821800000000000
+37310,Western Downs (R),3,Queensland,37937.454599999997299
+37340,Whitsunday (R),3,Queensland,23818.892199999998411
+37400,Winton (S),3,Queensland,53813.482600000003004
+37550,Woorabinda (S),3,Queensland,390.557799999999986
+37570,Wujal Wujal (S),3,Queensland,11.842000000000001
+37600,Yarrabah (S),3,Queensland,158.838099999999997
+39499,No usual address (Qld),3,Queensland,0.000000000000000
+39799,Migratory - Offshore - Shipping (Qld),3,Queensland,0.000000000000000
+40070,Adelaide (C),4,South Australia,15.573300000000000
+40120,Adelaide Hills (DC),4,South Australia,794.495700000000056
+40220,Alexandrina (DC),4,South Australia,1826.806599999999889
+40250,Anangu Pitjantjatjara (AC),4,South Australia,102353.051200000001700
+40310,Barossa (DC),4,South Australia,893.542400000000043
+40430,Barunga West (DC),4,South Australia,1590.388699999999972
+40520,Berri and Barmera (DC),4,South Australia,476.196199999999976
+40700,Burnside (C),4,South Australia,27.518300000000000
+40910,Campbelltown (C) (SA),4,South Australia,24.348600000000001
+41010,Ceduna (DC),4,South Australia,5420.343600000000151
+41060,Charles Sturt (C),4,South Australia,54.787599999999998
+41140,Clare and Gilbert Valleys (DC),4,South Australia,1892.446599999999989
+41190,Cleve (DC),4,South Australia,5018.848399999999856
+41330,Coober Pedy (DC),4,South Australia,77.679500000000004
+41560,Copper Coast (DC),4,South Australia,772.914899999999989
+41750,Elliston (DC),4,South Australia,6741.931700000000092
+41830,Flinders Ranges (DC),4,South Australia,4070.482700000000023
+41960,Franklin Harbour (DC),4,South Australia,2755.563999999999851
+42030,Gawler (T),4,South Australia,41.137900000000002
+42110,Goyder (DC),4,South Australia,6715.141800000000330
+42250,Grant (DC),4,South Australia,1898.014300000000048
+42600,Holdfast Bay (C),4,South Australia,13.752000000000001
+42750,Kangaroo Island (DC),4,South Australia,4400.855800000000272
+43080,Karoonda East Murray (DC),4,South Australia,4415.795900000000074
+43220,Kimba (DC),4,South Australia,5697.107600000000275
+43360,Kingston (DC) (SA),4,South Australia,3339.795200000000023
+43650,Light (RegC),4,South Australia,1276.845299999999952
+43710,Lower Eyre Peninsula (DC),4,South Australia,4721.287500000000364
+43790,Loxton Waikerie (DC),4,South Australia,7763.923099999999977
+43920,Mallala (DC),4,South Australia,932.491300000000024
+44000,Maralinga Tjarutja (AC),4,South Australia,102703.899000000004889
+44060,Marion (C),4,South Australia,55.640700000000002
+44210,Mid Murray (DC),4,South Australia,6271.625399999999900
+44340,Mitcham (C),4,South Australia,75.546800000000005
+44550,Mount Barker (DC),4,South Australia,594.640499999999975
+44620,Mount Gambier (C),4,South Australia,33.893799999999999
+44830,Mount Remarkable (DC),4,South Australia,3422.773299999999836
+45040,Murray Bridge (RC),4,South Australia,1831.759700000000066
+45090,Naracoorte and Lucindale (DC),4,South Australia,4520.127000000000407
+45120,Northern Areas (DC),4,South Australia,2986.181799999999839
+45290,Norwood Payneham St Peters (C),4,South Australia,15.103600000000000
+45340,Onkaparinga (C),4,South Australia,518.125099999999975
+45400,Orroroo/Carrieton (DC),4,South Australia,3321.823800000000119
+45540,Peterborough (DC),4,South Australia,3020.141999999999825
+45680,Playford (C),4,South Australia,345.202999999999975
+45890,Port Adelaide Enfield (C),4,South Australia,91.758600000000001
+46090,Port Augusta (C),4,South Australia,1195.583599999999933
+46300,Port Lincoln (C),4,South Australia,30.368099999999998
+46450,Port Pirie City and Dists (M),4,South Australia,1760.709700000000112
+46510,Prospect (C),4,South Australia,7.791500000000000
+46670,Renmark Paringa (DC),4,South Australia,915.865499999999997
+46860,Robe (DC),4,South Australia,1091.716200000000072
+46970,Roxby Downs (M),4,South Australia,110.476200000000006
+47140,Salisbury (C),4,South Australia,159.843199999999996
+47290,Southern Mallee (DC),4,South Australia,5702.209499999999935
+47490,Streaky Bay (DC),4,South Australia,6222.859099999999671
+47630,Tatiara (DC),4,South Australia,6527.208400000000438
+47700,Tea Tree Gully (C),4,South Australia,95.210800000000006
+47800,The Coorong (DC),4,South Australia,8833.453400000000329
+47910,Tumby Bay (DC),4,South Australia,2669.074700000000121
+47980,Unley (C),4,South Australia,14.270300000000001
+48050,Victor Harbor (C),4,South Australia,384.625499999999988
+48130,Wakefield (DC),4,South Australia,3468.488100000000031
+48260,Walkerville (M),4,South Australia,3.530000000000000
+48340,Wattle Range (DC),4,South Australia,3926.323300000000017
+48410,West Torrens (C),4,South Australia,37.039999999999999
+48540,Whyalla (C),4,South Australia,1071.609899999999925
+48640,Wudinna (DC),4,South Australia,5075.278299999999945
+48750,Yankalilla (DC),4,South Australia,751.257700000000000
+48830,Yorke Peninsula (DC),4,South Australia,5899.607899999999972
+49399,Unincorporated SA,4,South Australia,622489.195300000021234
+49499,No usual address (SA),4,South Australia,0.000000000000000
+49799,Migratory - Offshore - Shipping (SA),4,South Australia,0.000000000000000
+50080,Albany (C),5,Western Australia,4310.890500000000429
+50210,Armadale (C),5,Western Australia,559.526100000000042
+50250,Ashburton (S),5,Western Australia,100816.152300000001560
+50280,Augusta-Margaret River (S),5,Western Australia,2122.374899999999798
+50350,Bassendean (T),5,Western Australia,10.344900000000001
+50420,Bayswater (C),5,Western Australia,32.769900000000000
+50490,Belmont (C),5,Western Australia,39.651899999999998
+50560,Beverley (S),5,Western Australia,2370.519499999999880
+50630,Boddington (S),5,Western Australia,1904.479100000000017
+50770,Boyup Brook (S),5,Western Australia,2826.458599999999933
+50840,Bridgetown-Greenbushes (S),5,Western Australia,1337.361000000000104
+50910,Brookton (S),5,Western Australia,1601.153199999999970
+50980,Broome (S),5,Western Australia,54371.597900000000664
+51080,Broomehill-Tambellup (S),5,Western Australia,2609.658500000000004
+51120,Bruce Rock (S),5,Western Australia,2724.694399999999860
+51190,Bunbury (C),5,Western Australia,65.416300000000007
+51260,Busselton (C),5,Western Australia,1454.050500000000056
+51310,Cambridge (T),5,Western Australia,21.993600000000001
+51330,Canning (C),5,Western Australia,64.878900000000002
+51400,Capel (S),5,Western Australia,557.898299999999949
+51470,Carnamah (S),5,Western Australia,2870.924700000000030
+51540,Carnarvon (S),5,Western Australia,46574.470900000000256
+51610,Chapman Valley (S),5,Western Australia,3981.333299999999781
+51680,Chittering (S),5,Western Australia,1219.903199999999970
+51750,Claremont (T),5,Western Australia,4.955600000000000
+51820,Cockburn (C),5,Western Australia,167.898899999999998
+51890,Collie (S),5,Western Australia,1709.814900000000080
+51960,Coolgardie (S),5,Western Australia,30297.697700000000623
+52030,Coorow (S),5,Western Australia,4189.879100000000108
+52100,Corrigin (S),5,Western Australia,2681.270899999999983
+52170,Cottesloe (T),5,Western Australia,3.856400000000000
+52240,Cranbrook (S),5,Western Australia,3276.049100000000180
+52310,Cuballing (S),5,Western Australia,1195.336999999999989
+52380,Cue (S),5,Western Australia,13582.195599999999104
+52450,Cunderdin (S),5,Western Australia,1862.445799999999963
+52520,Dalwallinu (S),5,Western Australia,7224.356600000000071
+52590,Dandaragan (S),5,Western Australia,6711.572100000000319
+52660,Dardanup (S),5,Western Australia,525.801699999999983
+52730,Denmark (S),5,Western Australia,1859.848799999999983
+52800,Derby-West Kimberley (S),5,Western Australia,119761.195399999996880
+52870,Donnybrook-Balingup (S),5,Western Australia,1559.856099999999969
+52940,Dowerin (S),5,Western Australia,1863.085100000000011
+53010,Dumbleyung (S),5,Western Australia,2539.224900000000162
+53080,Dundas (S),5,Western Australia,92885.030199999993783
+53150,East Fremantle (T),5,Western Australia,3.138400000000000
+53220,East Pilbara (S),5,Western Australia,372307.466000000014901
+53290,Esperance (S),5,Western Australia,44797.545599999997648
+53360,Exmouth (S),5,Western Australia,6488.070499999999811
+53430,Fremantle (C),5,Western Australia,19.010300000000001
+53570,Gingin (S),5,Western Australia,3208.358499999999822
+53640,Gnowangerup (S),5,Western Australia,4265.042400000000271
+53710,Goomalling (S),5,Western Australia,1835.429399999999987
+53780,Gosnells (C),5,Western Australia,127.297499999999999
+53800,Greater Geraldton (C),5,Western Australia,9909.000299999999697
+53920,Halls Creek (S),5,Western Australia,133061.012799999996787
+53990,Harvey (S),5,Western Australia,1727.606800000000021
+54060,Irwin (S),5,Western Australia,2369.329799999999977
+54130,Jerramungup (S),5,Western Australia,6508.590400000000045
+54170,Joondalup (C),5,Western Australia,98.928500000000000
+54200,Kalamunda (S),5,Western Australia,324.295700000000011
+54280,Kalgoorlie/Boulder (C),5,Western Australia,95498.051999999996042
+54310,Karratha (C),5,Western Australia,15239.452499999999418
+54340,Katanning (S),5,Western Australia,1518.185400000000072
+54410,Kellerberrin (S),5,Western Australia,1915.432999999999993
+54480,Kent (S),5,Western Australia,5624.581799999999930
+54550,Kojonup (S),5,Western Australia,2930.992600000000039
+54620,Kondinin (S),5,Western Australia,7440.801599999999780
+54690,Koorda (S),5,Western Australia,2832.313099999999849
+54760,Kulin (S),5,Western Australia,4718.921900000000278
+54830,Kwinana (C),5,Western Australia,120.012100000000004
+54900,Lake Grace (S),5,Western Australia,11886.319900000000416
+54970,Laverton (S),5,Western Australia,179984.600999999995111
+55040,Leonora (S),5,Western Australia,31915.056199999999080
+55110,Mandurah (C),5,Western Australia,174.896700000000010
+55180,Manjimup (S),5,Western Australia,7029.607699999999568
+55250,Meekatharra (S),5,Western Australia,100188.547699999995530
+55320,Melville (C),5,Western Australia,52.850600000000000
+55390,Menzies (S),5,Western Australia,124110.936799999995856
+55460,Merredin (S),5,Western Australia,3293.782400000000052
+55530,Mingenew (S),5,Western Australia,1934.885700000000043
+55600,Moora (S),5,Western Australia,3763.025399999999991
+55670,Morawa (S),5,Western Australia,3510.592799999999897
+55740,Mosman Park (T),5,Western Australia,4.347200000000000
+55810,Mount Magnet (S),5,Western Australia,13858.118200000000797
+55880,Mount Marshall (S),5,Western Australia,10184.593699999999444
+55950,Mukinbudin (S),5,Western Australia,3426.944100000000162
+56090,Mundaring (S),5,Western Australia,643.179399999999987
+56160,Murchison (S),5,Western Australia,45046.092199999999139
+56230,Murray (S),5,Western Australia,1703.468800000000101
+56300,Nannup (S),5,Western Australia,3053.936099999999897
+56370,Narembeen (S),5,Western Australia,3809.028499999999894
+56460,Narrogin (S),5,Western Australia,1631.302400000000034
+56580,Nedlands (C),5,Western Australia,19.946600000000000
+56620,Ngaanyatjarraku (S),5,Western Australia,159821.702599999989616
+56730,Northam (S),5,Western Australia,1431.221500000000106
+56790,Northampton (S),5,Western Australia,12543.714200000000346
+56860,Nungarin (S),5,Western Australia,1166.024499999999989
+56930,Peppermint Grove (S),5,Western Australia,1.067700000000000
+57000,Perenjori (S),5,Western Australia,8301.355100000000675
+57080,Perth (C),5,Western Australia,12.021300000000000
+57140,Pingelly (S),5,Western Australia,1294.572100000000091
+57210,Plantagenet (S),5,Western Australia,4876.682099999999991
+57280,Port Hedland (T),5,Western Australia,18417.077700000001641
+57350,Quairading (S),5,Western Australia,2016.926899999999932
+57420,Ravensthorpe (S),5,Western Australia,9841.750299999999697
+57490,Rockingham (C),5,Western Australia,257.497000000000014
+57630,Sandstone (S),5,Western Australia,32605.291099999998551
+57700,Serpentine-Jarrahdale (S),5,Western Australia,901.205600000000004
+57770,Shark Bay (S),5,Western Australia,24201.383900000000722
+57840,South Perth (C),5,Western Australia,19.811599999999999
+57910,Stirling (C),5,Western Australia,104.727000000000004
+57980,Subiaco (C),5,Western Australia,6.976400000000000
+58050,Swan (C),5,Western Australia,1043.227100000000064
+58190,Tammin (S),5,Western Australia,1101.692000000000007
+58260,Three Springs (S),5,Western Australia,2656.692799999999806
+58330,Toodyay (S),5,Western Australia,1691.648599999999988
+58400,Trayning (S),5,Western Australia,1651.204300000000103
+58470,Upper Gascoyne (S),5,Western Australia,57809.873699999996461
+58510,Victoria Park (T),5,Western Australia,17.939699999999998
+58540,Victoria Plains (S),5,Western Australia,2551.013199999999870
+58570,Vincent (C),5,Western Australia,11.376899999999999
+58610,Wagin (S),5,Western Australia,1946.176300000000083
+58680,Wandering (S),5,Western Australia,1903.864499999999907
+58760,Wanneroo (C),5,Western Australia,685.067999999999984
+58820,Waroona (S),5,Western Australia,832.228600000000029
+58890,West Arthur (S),5,Western Australia,2831.827200000000175
+59030,Westonia (S),5,Western Australia,3319.449700000000121
+59100,Wickepin (S),5,Western Australia,2040.898500000000013
+59170,Williams (S),5,Western Australia,2304.711899999999787
+59250,Wiluna (S),5,Western Australia,181297.338199999998324
+59310,Wongan-Ballidu (S),5,Western Australia,3365.067500000000109
+59320,Woodanilling (S),5,Western Australia,1128.834800000000087
+59330,Wyalkatchem (S),5,Western Australia,1594.488499999999931
+59340,Wyndham-East Kimberley (S),5,Western Australia,112065.984299999996438
+59350,Yalgoo (S),5,Western Australia,27949.464100000001054
+59360,Yilgarn (S),5,Western Australia,30428.764999999999418
+59370,York (S),5,Western Australia,2131.591600000000199
+59499,No usual address (WA),5,Western Australia,0.000000000000000
+59799,Migratory - Offshore - Shipping (WA),5,Western Australia,0.000000000000000
+60210,Break O'Day (M),6,Tasmania,3523.885900000000220
+60410,Brighton (M),6,Tasmania,171.159899999999993
+60610,Burnie (C),6,Tasmania,610.952900000000000
+60810,Central Coast (M) (Tas.),6,Tasmania,933.089200000000005
+61010,Central Highlands (M) (Tas.),6,Tasmania,7982.415500000000065
+61210,Circular Head (M),6,Tasmania,4898.011000000000422
+61410,Clarence (C),6,Tasmania,377.955199999999991
+61510,Derwent Valley (M),6,Tasmania,4108.102100000000064
+61610,Devonport (C),6,Tasmania,111.259000000000000
+61810,Dorset (M),6,Tasmania,3230.545599999999922
+62010,Flinders (M) (Tas.),6,Tasmania,1996.624399999999923
+62210,George Town (M),6,Tasmania,653.437699999999950
+62410,Glamorgan/Spring Bay (M),6,Tasmania,2591.561799999999948
+62610,Glenorchy (C),6,Tasmania,121.148300000000006
+62810,Hobart (C),6,Tasmania,77.909700000000001
+63010,Huon Valley (M),6,Tasmania,5507.354099999999562
+63210,Kentish (M),6,Tasmania,1156.188699999999926
+63410,King Island (M),6,Tasmania,1095.740700000000061
+63610,Kingborough (M),6,Tasmania,720.102899999999977
+63810,Latrobe (M) (Tas.),6,Tasmania,600.461699999999951
+64010,Launceston (C),6,Tasmania,1413.630599999999959
+64210,Meander Valley (M),6,Tasmania,3330.814499999999953
+64610,Northern Midlands (M),6,Tasmania,5135.250299999999697
+64810,Sorell (M),6,Tasmania,583.676100000000019
+65010,Southern Midlands (M),6,Tasmania,2615.493399999999838
+65210,Tasman (M),6,Tasmania,660.496200000000044
+65410,Waratah/Wynyard (M),6,Tasmania,3535.907499999999800
+65610,West Coast (M),6,Tasmania,9583.538800000000265
+65810,West Tamar (M),6,Tasmania,691.147000000000048
+69499,No usual address (Tas.),6,Tasmania,0.000000000000000
+69799,Migratory - Offshore - Shipping (Tas.),6,Tasmania,0.000000000000000
+70200,Alice Springs (T),7,Northern Territory,327.713300000000004
+70420,Barkly (R),7,Northern Territory,322713.218799999973271
+70540,Belyuen (S),7,Northern Territory,41.405400000000000
+70620,Central Desert (R),7,Northern Territory,281312.026200000022072
+70700,Coomalie (S),7,Northern Territory,2056.054700000000139
+71000,Darwin (C),7,Northern Territory,111.272499999999994
+71300,East Arnhem (R),7,Northern Territory,33309.933400000001711
+72200,Katherine (T),7,Northern Territory,7416.644400000000132
+72300,Litchfield (M),7,Northern Territory,2903.145899999999983
+72330,MacDonnell (R),7,Northern Territory,268329.347400000027847
+72800,Palmerston (C),7,Northern Territory,52.655900000000003
+73600,Roper Gulf (R),7,Northern Territory,185210.247499999997672
+74050,Tiwi Islands (R),7,Northern Territory,7483.166100000000370
+74550,Victoria Daly (R),7,Northern Territory,153287.083899999997811
+74560,Wagait (S),7,Northern Territory,5.637800000000000
+74660,West Arnhem (R),7,Northern Territory,49675.034299999999348
+74680,West Daly (R),7,Northern Territory,14069.697899999999208
+79399,Unincorporated NT,7,Northern Territory,19790.042700000001787
+79499,No usual address (NT),7,Northern Territory,0.000000000000000
+79799,Migratory - Offshore - Shipping (NT),7,Northern Territory,0.000000000000000
+89399,Unincorporated ACT,8,Australian Capital Territory,2358.172000000000025
+89499,No usual address (ACT),8,Australian Capital Territory,0.000000000000000
+89799,Migratory - Offshore - Shipping (ACT),8,Australian Capital Territory,0.000000000000000
+99399,Unincorp. Other Territories,9,Other Territories,256.316199999999981
+99499,No usual address (OT),9,Other Territories,0.000000000000000
+99799,Migratory - Offshore - Shipping (OT),9,Other Territories,0.000000000000000

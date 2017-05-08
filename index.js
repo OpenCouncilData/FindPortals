@@ -1,8 +1,16 @@
+'use strict';
 /* jshint esnext:true */
 var requestp = require('request-promise');
 var URI = require('urijs');
 var Promise = require('bluebird');
 var Cloudant = require('cloudant');
+var fs = require('fs');
+var d3 = require('d3-dsv');
+
+
+function def(a, b) {
+    return a !== undefined ? a : b;
+}
 
 
 function uploadToCloudant(orgInfo) {
@@ -10,7 +18,7 @@ function uploadToCloudant(orgInfo) {
         var doc = orgInfo[key]; // destructive modification, but so what?
         doc._id = key;
         doc._rev = revIds[key];
-        console.log(doc);
+        //console.log(doc);
         return doc;
     });
 
@@ -42,8 +50,18 @@ function uploadToCloudant(orgInfo) {
 
 
 function cleanCouncilName(name) {
-    var re = /\s*(^City of|^Shire of|\(Local Council\)|City|Shire|Rural|Municipal|Council)\s*/;
+    var re = /\s*(^City of|^Shire of|\(Local Council\)|Regional Council|City|Shire|Rural|Municipal|Council)\s*/;
     return name.replace(re, '').replace(re, '').replace(re, '');
+}
+
+function getStateFromName(shortTitle) {
+    for (let row of lgas) {
+        if (row.LGA_NAME16.replace(/ \(.*\)$/, '').replace(/-/g, ' ') === shortTitle.replace(/-/g, ' ')) {
+            console.log(`${shortTitle} ==> ${row.STE_NAME16}`);
+            return row.STE_NAME16;
+        }
+    }
+    console.warn(`!! Unable to identify ${shortTitle}`);
 }
 
 /* Connect  to a CKAN endpoint and build a list of councils that have organisations within that portal. */
@@ -78,18 +96,18 @@ function getCouncilOrgs(api) {
                 type: 'ckan'
             };
             // There is no explicit state metadata, so we have to generate that here.
-            if (api.match('brisbane') || org.title.match(/gold coast|logan|sunshine coast|noosa|moreton bay/i))
+            if (api.match('brisbane'))// || org.title.match(/gold coast|logan|sunshine coast|noosa|moreton bay/i))
                 orgInfo[orgUrl].state = 'Queensland';
             else if (api.match('data.sa'))
                 orgInfo[orgUrl].state = 'South Australia';
             else if (api.match('data.nsw') || org.title.match('Mosman'))
                 orgInfo[orgUrl].state = 'New South Wales';
-            else if (org.title.match(/launceston|hobart|glenorchy/i))
-                orgInfo[orgUrl].state = 'Tasmania';
+            //else if (org.title.match(/launceston|hobart|glenorchy/i))
+            //    orgInfo[orgUrl].state = 'Tasmania';
             else if (org.title.match(/act government/i))
                 orgInfo[orgUrl].state = 'ACT';
-            else
-                orgInfo[orgUrl].state = 'Victoria';
+            else 
+                orgInfo[orgUrl].state = def(getStateFromName(orgInfo[orgUrl].shortTitle), 'Unknown');
 
             return {
                 name: org.name,
@@ -113,6 +131,8 @@ function getExistingList() {
     });
 }
 
+
+var lgas = d3.csvParse(fs.readFileSync('lgas.csv').toString());
 
 Promise.all([
     getExistingList(),
@@ -152,5 +172,6 @@ Promise.all([
     };
 
 }).then(() => {
-    console.log(orgInfo['https://data.gov.au/organization/moreton-bay-regional-council']);
-}).then(() => uploadToCloudant(orgInfo));
+    //console.log(orgInfo['https://data.gov.au/organization/moreton-bay-regional-council']);
+})
+.then(() => uploadToCloudant(orgInfo));
