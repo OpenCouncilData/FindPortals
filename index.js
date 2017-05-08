@@ -2,7 +2,6 @@
 var requestp = require('request-promise');
 var URI = require('urijs');
 var Promise = require('bluebird');
-var orgInfo = {};
 var Cloudant = require('cloudant');
 
 
@@ -10,11 +9,14 @@ function uploadToCloudant(orgInfo) {
     var docs = Object.keys(orgInfo).map(key => {
         var doc = orgInfo[key]; // destructive modification, but so what?
         doc._id = key;
+        doc._rev = revIds[key];
+        console.log(doc);
         return doc;
     });
 
     console.log(docs.map(doc => doc.title).join(','));
     console.log(`${docs.length} councils.`);
+    //console.log(docs);
     //return;
     var config = require('./config.json');
 
@@ -23,9 +25,18 @@ function uploadToCloudant(orgInfo) {
         password: config.cloudant.password 
     });
     var db = cloudant.use(config.cloudant.database);
-    db.bulk({docs: docs}, undefined, (err, body) => {
-        if (err)
-            console.log(err.reason);
+    db.bulk({docs: docs}, er => {
+
+        if (er) {
+            // don't know what this does for us.
+            //console.error('ERROR');
+        }
+    }, (err, body) => {
+        //console.log(body);        
+        if (err || Array.isArray(body) && body[0].error)
+            console.log(body);
+        else
+            console.log('Uploaded portals info to Cloudant.');
     });
 }
 
@@ -90,7 +101,21 @@ function getCouncilOrgs(api) {
     );
 }
 
+
+var orgInfo = {}, revIds = {};
+// get rev ids of portals in the existing Cloudant list, required for the later bulk update
+function getExistingList() {
+    return requestp({
+        url: 'https://opencouncildata.cloudant.com/councils/_design/platforms/_view/all',
+        json: true
+    }).then(results => {
+        results.rows.forEach(row => revIds[row.id] = row.key._rev);
+    });
+}
+
+
 Promise.all([
+    getExistingList(),
     getCouncilOrgs('https://data.gov.au/api/3/'),
     getCouncilOrgs('https://data.sa.gov.au/data/api/3/'),
     getCouncilOrgs('http://data.nsw.gov.au/data/api/3/')/*,
@@ -126,4 +151,6 @@ Promise.all([
         type: 'socrata'
     };
 
+}).then(() => {
+    console.log(orgInfo['https://data.gov.au/organization/moreton-bay-regional-council']);
 }).then(() => uploadToCloudant(orgInfo));
