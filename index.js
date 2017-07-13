@@ -1,5 +1,5 @@
+/* jshint node:true,esnext:true */
 'use strict';
-/* jshint esnext:true */
 var requestp = require('request-promise');
 var URI = require('urijs');
 var Promise = require('bluebird');
@@ -138,7 +138,8 @@ Promise.all([
     getExistingList(),
     getCouncilOrgs('https://data.gov.au/api/3/'),
     getCouncilOrgs('https://data.sa.gov.au/data/api/3/'),
-    getCouncilOrgs('http://data.nsw.gov.au/data/api/3/')/*,
+    getCouncilOrgs('http://data.nsw.gov.au/data/api/3/'),
+    getCouncilOrgs('http://catalogue.beta.data.wa.gov.au/api/3/')/*,
     getCouncilOrgs('https://data.brisbane.qld.gov.au/data/api/3/')*/
 ]).then(() => {
     // Add the councils that have their own portal. There's not really a way to detect these automatically.
@@ -174,4 +175,12 @@ Promise.all([
 }).then(() => {
     //console.log(orgInfo['https://data.gov.au/organization/moreton-bay-regional-council']);
 })
-.then(() => uploadToCloudant(orgInfo));
+.then(() => {
+    // Also write the file to disk for convenience.
+    var jsonfile = require('jsonfile');
+ 
+    jsonfile.writeFile('orginfo.json', orgInfo, { spaces: 2}, function (err) {
+      if (err)
+        console.error(err);
+    })
+}).then(() => uploadToCloudant(orgInfo));

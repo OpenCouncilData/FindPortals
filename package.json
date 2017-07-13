@@ -12,6 +12,7 @@
     "bluebird": "^3.4.6",
     "cloudant": "^1.6.2",
     "d3-dsv": "^1.0.5",
+    "jsonfile": "^3.0.1",
     "request": "^2.79.0",
     "request-promise": "^4.1.1",
     "urijs": "^1.18.4"

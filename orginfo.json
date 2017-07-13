@@ -1,0 +1,520 @@
+{
+  "http://data.nsw.gov.au/data/organization/city-of-ryde": {
+    "api": "http://data.nsw.gov.au/data/api/3/",
+    "title": "City of Ryde",
+    "shortTitle": "Ryde",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "http://data.nsw.gov.au/data/organization/city-of-sydney": {
+    "api": "http://data.nsw.gov.au/data/api/3/",
+    "title": "City of Sydney",
+    "shortTitle": "Sydney",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "http://data.nsw.gov.au/data/organization/hawkesbury-city-council": {
+    "api": "http://data.nsw.gov.au/data/api/3/",
+    "title": "Hawkesbury City Council",
+    "shortTitle": "Hawkesbury",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "http://data.nsw.gov.au/data/organization/hornsby-shire-council": {
+    "api": "http://data.nsw.gov.au/data/api/3/",
+    "title": "Hornsby Shire Council",
+    "shortTitle": "Hornsby",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "http://data.nsw.gov.au/data/organization/lismore": {
+    "api": "http://data.nsw.gov.au/data/api/3/",
+    "title": "Lismore City Council",
+    "shortTitle": "Lismore",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "http://data.nsw.gov.au/data/organization/nambucca-shire-council": {
+    "api": "http://data.nsw.gov.au/data/api/3/",
+    "title": "Nambucca Shire Council",
+    "shortTitle": "Nambucca",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "https://data.sa.gov.au/data/organization/adelaide-city-council": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "Adelaide City Council",
+    "shortTitle": "Adelaide",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "https://data.sa.gov.au/data/organization/city-of-burnside-local-council": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "City of Burnside (Local Council)",
+    "shortTitle": "Burnside",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "https://data.sa.gov.au/data/organization/city-of-mitcham": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "City of Mitcham",
+    "shortTitle": "Mitcham",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "https://data.sa.gov.au/data/organization/city-of-onkaparinga": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "City of Onkaparinga",
+    "shortTitle": "Onkaparinga",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "https://data.sa.gov.au/data/organization/city-of-playford": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "City of Playford",
+    "shortTitle": "Playford",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "https://data.sa.gov.au/data/organization/city-of-prospect": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "City of Prospect",
+    "shortTitle": "Prospect",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "https://data.sa.gov.au/data/organization/city-of-salisbury-council": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "City of Salisbury Council",
+    "shortTitle": "Salisbury",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "https://data.sa.gov.au/data/organization/city-of-tea-tree-gully": {
+    "api": "https://data.sa.gov.au/data/api/3/",
+    "title": "City of Tea Tree Gully",
+    "shortTitle": "Tea Tree Gully",
+    "type": "ckan",
+    "state": "South Australia"
+  },
+  "http://catalogue.beta.data.wa.gov.au/organization/city-of-joondalup": {
+    "api": "http://catalogue.beta.data.wa.gov.au/api/3/",
+    "title": "City of Joondalup",
+    "shortTitle": "Joondalup",
+    "type": "ckan",
+    "state": "Western Australia"
+  },
+  "http://catalogue.beta.data.wa.gov.au/organization/city-of-perth": {
+    "api": "http://catalogue.beta.data.wa.gov.au/api/3/",
+    "title": "City of Perth",
+    "shortTitle": "Perth",
+    "type": "ckan",
+    "state": "Western Australia"
+  },
+  "http://catalogue.beta.data.wa.gov.au/organization/city-of-swan": {
+    "api": "http://catalogue.beta.data.wa.gov.au/api/3/",
+    "title": "City of Swan",
+    "shortTitle": "Swan",
+    "type": "ckan",
+    "state": "Western Australia"
+  },
+  "http://catalogue.beta.data.wa.gov.au/organization/city-of-wanneroo": {
+    "api": "http://catalogue.beta.data.wa.gov.au/api/3/",
+    "title": "City of Wanneroo",
+    "shortTitle": "Wanneroo",
+    "type": "ckan",
+    "state": "Western Australia"
+  },
+  "https://data.gov.au/organization/alpine-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Alpine Shire Council",
+    "shortTitle": "Alpine",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/brimbank-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Brimbank City Council",
+    "shortTitle": "Brimbank",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/cairns-regional-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Cairns Regional Council",
+    "shortTitle": "Cairns",
+    "type": "ckan",
+    "state": "Queensland"
+  },
+  "https://data.gov.au/organization/cardinia-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Cardinia Shire Council",
+    "shortTitle": "Cardinia",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/central-goldfields-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Central Goldfields Shire Council",
+    "shortTitle": "Central Goldfields",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-ballarat": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Ballarat",
+    "shortTitle": "Ballarat",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-boroondara": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Boroondara",
+    "shortTitle": "Boroondara",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-casey": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Casey",
+    "shortTitle": "Casey",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-gold-coast": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Gold Coast",
+    "shortTitle": "Gold Coast",
+    "type": "ckan",
+    "state": "Queensland"
+  },
+  "https://data.gov.au/organization/city-of-greater-bendigo": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Greater Bendigo",
+    "shortTitle": "Greater Bendigo",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-greater-dandenong": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Greater Dandenong",
+    "shortTitle": "Greater Dandenong",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-greater-geelong": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Greater Geelong",
+    "shortTitle": "Greater Geelong",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-hobart": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Hobart",
+    "shortTitle": "Hobart",
+    "type": "ckan",
+    "state": "Tasmania"
+  },
+  "https://data.gov.au/organization/city-of-ipswich": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Ipswich City Council",
+    "shortTitle": "Ipswich",
+    "type": "ckan",
+    "state": "Queensland"
+  },
+  "https://data.gov.au/organization/city-of-launceston": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Launceston",
+    "shortTitle": "Launceston",
+    "type": "ckan",
+    "state": "Tasmania"
+  },
+  "https://data.gov.au/organization/city-of-palmerston": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Palmerston",
+    "shortTitle": "Palmerston",
+    "type": "ckan",
+    "state": "Northern Territory"
+  },
+  "https://data.gov.au/organization/city-of-port-phillip": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Port Phillip",
+    "shortTitle": "Port Phillip",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-stonnington": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Stonnington",
+    "shortTitle": "Stonnington",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/city-of-whittlesea": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "City of Whittlesea",
+    "shortTitle": "Whittlesea",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/colac-otway-shire": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Colac Otway Shire",
+    "shortTitle": "Colac Otway",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/corangamite-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Corangamite Shire Council ",
+    "shortTitle": "Corangamite",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/frankston-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Frankston City Council",
+    "shortTitle": "Frankston",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/gcc": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Glenorchy City Council",
+    "shortTitle": "Glenorchy",
+    "type": "ckan",
+    "state": "Tasmania"
+  },
+  "https://data.gov.au/organization/glen-eira-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Glen Eira City Council",
+    "shortTitle": "Glen Eira",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/glenelg-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Glenelg Shire Council",
+    "shortTitle": "Glenelg",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/golden-plains-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Golden Plains Shire Council",
+    "shortTitle": "Golden Plains",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/greater-shepparton-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Greater Shepparton City Council",
+    "shortTitle": "Greater Shepparton",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/hindmarsh-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Hindmarsh Shire Council",
+    "shortTitle": "Hindmarsh",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/hobsons-bay-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Hobsons Bay City Council",
+    "shortTitle": "Hobsons Bay",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/horsham-rural-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Horsham Rural City Council",
+    "shortTitle": "Horsham",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/lake-macquarie-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Lake Macquarie City Council",
+    "shortTitle": "Lake Macquarie",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "https://data.gov.au/organization/loddon-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Loddon Shire Council",
+    "shortTitle": "Loddon",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/logan-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Logan City Council",
+    "shortTitle": "Logan",
+    "type": "ckan",
+    "state": "Queensland"
+  },
+  "https://data.gov.au/organization/macedon-ranges-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Macedon Ranges Shire Council",
+    "shortTitle": "Macedon Ranges",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/manningham-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Manningham City Council",
+    "shortTitle": "Manningham",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/mansfield-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Mansfield Shire Council",
+    "shortTitle": "Mansfield",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/melton-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Melton City Council",
+    "shortTitle": "Melton",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/moreton-bay-regional-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Moreton Bay Regional Council",
+    "shortTitle": "Moreton Bay",
+    "type": "ckan",
+    "state": "Queensland"
+  },
+  "https://data.gov.au/organization/mosmanmunicipalcouncil": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Mosman Municipal Council",
+    "shortTitle": "Mosman",
+    "type": "ckan",
+    "state": "New South Wales"
+  },
+  "https://data.gov.au/organization/nillumbik-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Nillumbik Shire Council",
+    "shortTitle": "Nillumbik",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/noosa-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Noosa Shire Council",
+    "shortTitle": "Noosa",
+    "type": "ckan",
+    "state": "Queensland"
+  },
+  "https://data.gov.au/organization/northern-grampians-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Northern Grampians Shire Council",
+    "shortTitle": "Northern Grampians",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/southern-grampians-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Southern Grampians Shire Council ",
+    "shortTitle": "Southern Grampians",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/strathbogie-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Strathbogie Shire Council",
+    "shortTitle": "Strathbogie",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/surf-coast-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Surf Coast Shire Council",
+    "shortTitle": "Surf Coast",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/swan-hill-rural-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Swan Hill Rural City Council",
+    "shortTitle": "Swan Hill",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/warrnambool-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Warrnambool City Council ",
+    "shortTitle": "Warrnambool",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/west-wimmera-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "West Wimmera Shire Council",
+    "shortTitle": "West Wimmera",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/wodonga-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Wodonga City Council",
+    "shortTitle": "Wodonga",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/www-mitchellshirecouncil-vic-gov-au": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Mitchell Shire Council",
+    "shortTitle": "Mitchell",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/wyndham-city-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Wyndham City Council",
+    "shortTitle": "Wyndham",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.gov.au/organization/yarriambiack-shire-council": {
+    "api": "https://data.gov.au/api/3/",
+    "title": "Yarriambiack Shire Council",
+    "shortTitle": "Yarriambiack",
+    "type": "ckan",
+    "state": "Victoria"
+  },
+  "https://data.brisbane.qld.gov.au/": {
+    "title": "Brisbane City Council",
+    "shortTitle": "Brisbane",
+    "type": "ckan",
+    "state": "Queensland",
+    "api": "https://data.brisbane.qld.gov.au/data/api/3/"
+  },
+  "http://data.melbourne.vic.gov.au": {
+    "api": "http://data.melbourne.vic.gov.au",
+    "title": "City of Melbourne",
+    "shortTitle": "Melbourne",
+    "state": "Victoria",
+    "type": "socrata"
+  },
+  "http://data.act.gov.au": {
+    "api": "http://data.act.gov.au",
+    "title": "ACT Government",
+    "shortTitle": "ACT",
+    "state": "ACT",
+    "type": "socrata"
+  },
+  "https://data.sunshinecoast.qld.gov.au": {
+    "api": "https://data.sunshinecoast.qld.gov.au",
+    "title": "Sunshine Coast Council",
+    "shortTitle": "Sunshine Coast",
+    "state": "Queensland",
+    "type": "socrata"
+  }
+}
